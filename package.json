@@ -1,0 +1,20 @@
+{
+  "name": "js-concepts-30days-challenge",
+  "version": "1.0.0",
+  "description": "JS concepts references files, explained in Videos on CreatorSpaceIn instagram handle",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreatorSpaceSaurabh/js-concepts-30days-challenge.git"
+  },
+  "author": "creatorspacesaurabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreatorSpaceSaurabh/js-concepts-30days-challenge/issues"
+  },
+  "homepage": "https://github.com/CreatorSpaceSaurabh/js-concepts-30days-challenge#readme"
+}
