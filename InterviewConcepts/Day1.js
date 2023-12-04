@@ -1,5 +1,5 @@
 // ****Day1*****
-// Question 1 - What will be the output of this program
+// Question 1 - What will be the output of this program and should turn this program to expected output
 for (var index = 0; index < 10; index++) {
   setTimeout(() => {
     console.log(`Question - ${index}`);
