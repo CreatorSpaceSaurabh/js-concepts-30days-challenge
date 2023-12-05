@@ -6,7 +6,8 @@ console.log(`Quetion - Output Value1 - ${data.toString()}`);
 // console.log(`Quetion - Output Value2 - ${100.toString()}`);
 // Output : SyntaxError: Invalid or unexpected token at line no. 6
 
-// Expected Answer : Should resolve an error and print Output value 2
+// Expected Answer : Should resolve an error and print Output value 2 , in current scenario parser got confused with dot(.).
+//It only knows dot can be use to - i) access object property or ii) decimal value
 
 // Solution 1 : Wrap value inside parenthesis
 let data2 = 200;
