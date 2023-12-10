@@ -4,5 +4,5 @@
 // require("./InterviewConcepts/Day3");
 // require("./InterviewConcepts/Day4");
 // require("./InterviewConcepts/Day5");
-require("./InterviewConcepts/Day6");
-// require("./InterviewConcepts/Day7");
+// require("./InterviewConcepts/Day6");
+require("./InterviewConcepts/Day7");
