@@ -18,4 +18,4 @@ console.log(set2.size);
 // 2
 
 // Explaination - at line 7&8 we are adding obj 2 times which points to same object reference, so where as at line 10 & 11, we are adding
-// blank objects which points to differnt objects and reference to in console it prints value 1 and 2 respectively
+// blank objects which points to differnt objects and reference to in console, it prints value 1 and 2 respectively
