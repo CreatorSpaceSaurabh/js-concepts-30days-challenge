@@ -1,4 +1,4 @@
-// ****Day16 - JS Array with in operator *****
+// ****Day17 - JS Array with in operator *****
 const arr = [1, 2, 3, 4, 5];
 
 // Identidy what will be the output of following consoles
