@@ -13,7 +13,7 @@ console.log(5 in arr);
 
 // Explaination - in operator checks for whether that key present in object or not
 // Here in above example it gives an output as true, true and false because
-// Arrays stores values in object format, where indexes works as keys inside array
-//  that's why gives false for value 5
+// arrays stores values in object format, where indexes works as keys inside array
+// that's why gives false for value 5
 
 console.log(Object.keys(arr));
