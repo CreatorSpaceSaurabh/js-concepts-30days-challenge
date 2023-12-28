@@ -22,4 +22,5 @@
 // require("./InterviewConcepts/Day21");
 // require("./InterviewConcepts/Day22");
 // require("./InterviewConcepts/Day23");
-require("./InterviewConcepts/Day24");
+// require("./InterviewConcepts/Day24");
+require("./InterviewConcepts/Day25");
