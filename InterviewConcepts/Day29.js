@@ -12,6 +12,6 @@ arr.splice(1, 1, 4);
 console.log("Solution 2 - ", arr);
 // Output - [ 2, 3, 5, 6, 8, 9 ] - it will update existing array
 
-// Solution 3 - Using with method (introduced in 2023)
+// Solution 3 - Using with method (introduced in 2023, only work in updated node version)
 const arr2 = arr.with(1, 7);
 console.log("Solution 2 - ", arr2);
