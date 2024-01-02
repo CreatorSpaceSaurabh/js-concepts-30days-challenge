@@ -26,4 +26,5 @@
 // require("./InterviewConcepts/Day25");
 // require("./InterviewConcepts/Day26");
 // require("./InterviewConcepts/Day27");
-require("./InterviewConcepts/Day28");
+// require("./InterviewConcepts/Day28");
+require("./InterviewConcepts/Day29");
