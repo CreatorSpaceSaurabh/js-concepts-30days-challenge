@@ -1,6 +1,6 @@
 // ****Day 30 - JS - Switch case ***
 
-// Function that will perform arithmatic operation based on different operation values
+// Function that will perform arithmatic operation based on different type of operation values
 
 const performOperation = (key, data) => {
   let result;
