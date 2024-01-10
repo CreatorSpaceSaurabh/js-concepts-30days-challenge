@@ -3,7 +3,7 @@
 // Repeat given string N times input string
 // Input : "JS1_"
 // Repeat count : 5
-// Output : "JSJSJSJSJS"
+// Output : "JS1_JS1_JS1_JS1_JS1_"
 
 // Solution 1 - Array fill method
 const result1 = Array(5).fill("JS1_").join("");
