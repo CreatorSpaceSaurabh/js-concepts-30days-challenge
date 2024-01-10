@@ -34,4 +34,40 @@
 // ****Important concepts******
 // require("./ImportantConcepts/MethodOverriding");
 // require("./ImportantConcepts/MethodOverloading");
-require("./ImportantConcepts/ArrayMethods");
+// require("./ImportantConcepts/ArrayMethods");
+
+// craeting server for returning response for docker file
+const express = require("express");
+const app = express();
+
+app.use("/", (req, res, next) => {
+  res.status(200).json({
+    sucess: true,
+    data: [
+      {
+        id: 1,
+        name: "Peter",
+        age: 20,
+      },
+      {
+        id: 2,
+        name: "Bruce",
+        age: 25,
+      },
+      {
+        id: 3,
+        name: "Tony",
+        age: 40,
+      },
+      {
+        id: 4,
+        name: "Chris",
+        age: 35,
+      },
+    ],
+  });
+});
+
+app.listen(5000, () => {
+  console.log("Server running on port 5000");
+});
