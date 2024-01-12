@@ -51,12 +51,12 @@ app.use("/", (req, res, next) => {
       },
       {
         id: 2,
-        name: "Bruce",
+        name: "Bruce Banner",
         age: 25,
       },
       {
         id: 3,
-        name: "Tony",
+        name: "Tony Stark",
         age: 40,
       },
       {
