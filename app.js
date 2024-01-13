@@ -56,13 +56,13 @@ app.use("/", (req, res, next) => {
       },
       {
         id: 3,
-        name: "Tony Stark",
+        name: "Tony Shark",
         age: 40,
       },
       {
         id: 4,
         name: "Chris",
-        age: 35,
+        age: 30,
       },
     ],
   });

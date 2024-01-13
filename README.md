@@ -48,3 +48,8 @@ docker build -t js-concepts .
 
 - docker run --name container_name_version -p port:tcp_port image_name:version
 - example - docker run --name js-concepts-container_v2 -p 5000:5000 js-concepts:v2
+
+# To run image, created with versioning using VOLUME
+
+- docker run --name container_name -p port:tcp_port --rm -v path_of_the_image_directory image:version
+- docker run --name js_container -p 5000:5000 --rm -v /F:/CreatorSpace/clone-apps/CreatorSpaceSaurabh/JSConcepts30DaysChallenge/js-concepts-30days-challenge:/app js-concepts-image:v1
