@@ -1,0 +1,6 @@
+services:
+  img:
+    build: .
+    container_name: js-compose-container
+    ports:
+      - 5000:5000

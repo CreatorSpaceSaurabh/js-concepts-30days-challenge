@@ -53,3 +53,9 @@ docker build -t js-concepts .
 
 - docker run --name container_name -p port:tcp_port --rm -v path_of_the_image_directory image:version
 - docker run --name js_container -p 5000:5000 --rm -v /F:/CreatorSpace/clone-apps/CreatorSpaceSaurabh/JSConcepts30DaysChallenge/js-concepts-30days-challenge:/app js-concepts-image:v1
+
+# Steps to run build using compose command
+
+- Create compose.yaml file and write all necessary commands required to run project
+- To run command -
+  - docker compose up
