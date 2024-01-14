@@ -59,3 +59,36 @@ docker build -t js-concepts .
 - Create compose.yaml file and write all necessary commands required to run project
 - To run command -
   - docker compose up
+
+# Create images using docker hub
+
+- Go to website hub.docker.com
+- Signup / Sign in
+- Create repository with name
+- use repo name and add it using cmd -
+  - docker build -t hub_account/repo_name path
+  - e.g. - docker build -t creatorspacesaurabh/nodejs-app .
+  - Push code -
+    - docker push creatorspacesaurabh/nodejs-app
+  - Pull Code -
+    - docker pull creatorspacesaurabh/nodejs-app
+  - Run code -
+    - docker run --name container_name -p port:tcp_port image_name
+    - e.g. - docker run --name hub_container -p 5000:5000 creatorspacesaurabh/nodejs-app
+
+# Create build and run on live server -
+
+    - i) docker buildx build --platform linux/amd64 -t repo_name path
+        - e.g.-  docker buildx build --platform linux/amd64 -t creatorspacesaurabh/nodejs-demo-live-server .
+    - ii) docker push image_name
+        - docker push
+    - iii) Now open website - play with docker - https://labs.play-with-docker.com/
+        - Login with docker , start session - it will allow 4hrs for 1 session
+        - Add new instance , type docker on instance terminal (its prebuilt with docker)
+        - Type docker pull command from docker hub repository public view -
+            - docker pull creatorspacesaurabh/nodejs-demo-live-server
+        - After pull check whether docker image has been pulled or not using -
+            - docker images
+        - To run repo image -
+            - docker run -p port:tcp_port public_repo_name
+            - docker run -p 5000:5000 creatorspacesaurabh/nodejs-demo-live-server
