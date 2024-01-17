@@ -89,7 +89,7 @@ docker build -t js-concepts .
             - docker pull creatorspacesaurabh/nodejs-demo-live-server
         - After pull check whether docker image has been pulled or not using -
             - docker images
-            - will list all the images
+            - (will list all the images)
         - To run repo image -
             - docker run -p port:tcp_port public_repo_name
             - docker run -p 5000:5000 creatorspacesaurabh/nodejs-demo-live-server
