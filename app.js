@@ -30,6 +30,7 @@
 // require("./InterviewConcepts/Day29");
 // require("./InterviewConcepts/Day30");
 // require("./InterviewConcepts/Day31");
+require("./InterviewConcepts/Day32");
 
 // ****Important concepts******
 // require("./ImportantConcepts/MethodOverriding");
