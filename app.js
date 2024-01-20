@@ -30,12 +30,17 @@
 // require("./InterviewConcepts/Day29");
 // require("./InterviewConcepts/Day30");
 // require("./InterviewConcepts/Day31");
-require("./InterviewConcepts/Day32");
+// require("./InterviewConcepts/Day32");
 
 // ****Important concepts******
 // require("./ImportantConcepts/MethodOverriding");
 // require("./ImportantConcepts/MethodOverloading");
 // require("./ImportantConcepts/ArrayMethods");
+
+// ******Leetcode ************
+require("./LeetCode/LeetCode1");
+// require("./LeetCode/LeetCode2");
+// require("./LeetCode/LeetCode3");
 
 // craeting server for returning response for docker file
 const express = require("express");
