@@ -38,9 +38,9 @@
 // require("./ImportantConcepts/ArrayMethods");
 
 // ******Leetcode ************
-require("./LeetCode/LeetCode1");
+// require("./LeetCode/LeetCode1");
 // require("./LeetCode/LeetCode2");
-// require("./LeetCode/LeetCode3");
+require("./LeetCode/LeetCode3");
 
 // craeting server for returning response for docker file
 const express = require("express");
