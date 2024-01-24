@@ -24,8 +24,8 @@ function findLongestWord(sentence) {
 }
 
 // const sentence = "fun&!! time";
-// const sentence = "I love dog";
+// const sentence = "I love dogs";
 const sentence =
-  "This is a sample sentence with some long words like elephant and hippopotamus.";
+  "This is a sample sentence with some long words like elephant and hippo.";
 const longestWord = findLongestWord(sentence);
 console.log("Longestword --", longestWord);
