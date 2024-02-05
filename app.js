@@ -36,11 +36,12 @@
 // require("./ImportantConcepts/MethodOverriding");
 // require("./ImportantConcepts/MethodOverloading");
 // require("./ImportantConcepts/ArrayMethods");
+require("./ImportantConcepts/CurringInJs");
 
 // ******Leetcode ************
 // require("./LeetCode/LeetCode1");
 // require("./LeetCode/LeetCode2");
-require("./LeetCode/LeetCode3");
+// require("./LeetCode/Leetcode3");
 
 // craeting server for returning response for docker file
 const express = require("express");
