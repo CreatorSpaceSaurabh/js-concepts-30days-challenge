@@ -6,7 +6,7 @@
 //   return n1 + n2;
 // };
 
-// Solution 1 -
+// Solution 1 - Using spread parameters
 const sum = (...nums) => {
   return nums.reduce((a, n) => {
     return a + n;
@@ -19,7 +19,7 @@ console.log("Approach1 Dataset 3 - ", sum(1, 2, 3, 4));
 console.log("Approach1 Dataset 4 - ", sum(10, 2, 30, 4));
 console.log("Approach1 Dataset 5 - ", sum(1, 20, -3, 4, 5, -2));
 
-// Solution 2 -
+// Solution 2 - Using spread arguments
 // const sum2 = () => {
 //   console.log("Arguments - ", arguments.length);
 //   return [...arguments].reduce((a, n) => {
