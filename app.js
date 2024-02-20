@@ -36,7 +36,8 @@
 // require("./ImportantConcepts/MethodOverriding");
 // require("./ImportantConcepts/MethodOverloading");
 // require("./ImportantConcepts/ArrayMethods");
-require("./ImportantConcepts/CurringInJs");
+// require("./ImportantConcepts/CurringInJs");
+require("./ImportantConcepts/CustomJoin");
 
 // ******Leetcode ************
 // require("./LeetCode/LeetCode1");
