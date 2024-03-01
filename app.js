@@ -48,7 +48,8 @@ require("./ImportantConcepts/DateConversion");
 // craeting server for returning response for docker file
 const express = require("express");
 const app = express();
-
+// enabling the Helmet middleware
+app.use(helmet());
 app.use("/", (req, res, next) => {
   res.status(200).json({
     sucess: true,
