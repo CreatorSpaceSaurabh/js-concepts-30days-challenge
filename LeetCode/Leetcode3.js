@@ -14,7 +14,7 @@ function findLongestWord(sentence) {
   let longestWord = "";
   let maxLength = 0;
   for (let i = 0; i < words.length; i++) {
-    const word = words[i].replace(/[.,\#!%^&\*;"{}=\-_'~()]/g, "");
+    const word = words[i].replace(/[.,\#!%^&\*;"{}=\-_'~]/g, "");
     if (word.length > maxLength) {
       longestWord = word;
       maxLength = word.length;
