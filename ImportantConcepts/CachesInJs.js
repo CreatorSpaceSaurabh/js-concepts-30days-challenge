@@ -8,7 +8,7 @@ if (isCacheSupported) {
   // add method
   caches.open(cacheName).then((cache) => {
     cache.add(url).then(() => {
-      console.log("Data cached ");
+      console.log("Data cached successfully");
     });
   });
 
@@ -17,7 +17,7 @@ if (isCacheSupported) {
   let urls = ["/get/userSettings?userId=1", "/get/userDetails"];
   caches.open(cacheName).then((cache) => {
     cache.addAll(urls).then(() => {
-      console.log("Data cached ");
+      console.log("Data cached successfully");
     });
   });
 
