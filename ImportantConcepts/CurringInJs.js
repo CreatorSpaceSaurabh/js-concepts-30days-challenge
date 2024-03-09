@@ -22,5 +22,5 @@ function multiply(x) {
   };
 }
 
-const infiniteCurrResult = multiply(2)(3)(4)(5); //till infinite level
+const infiniteCurrResult = multiply(2)(3)(4)(5)(6)(7); //till infinite level
 console.log("Infinite currying result--", infiniteCurrResult());
