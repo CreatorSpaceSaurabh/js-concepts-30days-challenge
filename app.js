@@ -51,7 +51,7 @@ const express = require("express");
 const app = express();
 // enabling the Helmet middleware
 app.use(helmet());
-app.use("/", (req, res, next) => {
+app.use("/api/getData", (req, res, next) => {
   res.status(200).json({
     sucess: true,
     data: [
