@@ -4,7 +4,7 @@ let isCacheSupported = "caches" in window;
 if (isCacheSupported) {
   // create caches using 3 methods - add, addAll, put
   let cacheName = "userSettings";
-  let url = "/api/get/usersettings"; // Request for /api/get/usersettings url is sent to server, once the data is received, the response will be cached
+  let url = "/api/getData"; // Request for /api/get/usersettings url is sent to server, once the data is received, the response will be cached
   // add method
   caches.open(cacheName).then((cache) => {
     cache.add(url).then(() => {
