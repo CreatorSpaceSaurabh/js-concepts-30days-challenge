@@ -1,5 +1,5 @@
 //Checking the crypto module
-const crypto = require("crypto"); // this package will be discontinued
+const crypto = require("crypto"); // this package will be discontinued, instead recommended to use node-forge package
 const algorithm = "aes-256-cbc"; //Using AES encryption
 const key = crypto.randomBytes(32);
 const iv = crypto.randomBytes(16);
