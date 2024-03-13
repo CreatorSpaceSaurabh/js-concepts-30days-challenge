@@ -39,7 +39,8 @@
 // require("./ImportantConcepts/CurringInJs");
 // require("./ImportantConcepts/CustomJoin");
 // require("./ImportantConcepts/DateConversion");
-require("./ImportantConcepts/EncryptionDecryption");
+// require("./ImportantConcepts/EncryptionDecryption");
+require("./ImportantConcepts/NodeForgeEncryptionDecryption");
 
 // ******Leetcode ************
 // require("./LeetCode/LeetCode1");
@@ -49,6 +50,7 @@ require("./ImportantConcepts/EncryptionDecryption");
 // craeting server for returning response for docker file
 const express = require("express");
 const app = express();
+const helmet = require("helmet");
 // enabling the Helmet middleware
 app.use(helmet());
 app.use("/api/getData", (req, res, next) => {
