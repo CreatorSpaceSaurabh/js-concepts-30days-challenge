@@ -5,6 +5,7 @@ let forge = require("node-forge");
  * @param input utf8 string
  * @param key key is hashed by md5 and shorten to maximum 192 bits
  * @returns {String} Output is a base64 string
+ * @addedBy Saurabh Udapure
  */
 function encrypt3DES(input, key) {
   var md5Key = forge.md.md5.create();
@@ -27,6 +28,7 @@ function encrypt3DES(input, key) {
  * @param input A base64 sring
  * @param key key is hashed by md5 and shorten to maximum 192 bits
  * @returns {String} A utf8 string
+ * @addedBy Saurabh Udapure
  */
 function decrypt3DES(input, key) {
   let md5Key = forge.md.md5.create();
