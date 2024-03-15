@@ -39,8 +39,10 @@
 // require("./ImportantConcepts/CurringInJs");
 // require("./ImportantConcepts/CustomJoin");
 // require("./ImportantConcepts/DateConversion");
-// require("./ImportantConcepts/EncryptionDecryption");
-require("./ImportantConcepts/NodeForgeEncryptionDecryption");
+
+// *****Encryption decryption methods******
+// require("./EncryptionDecryption/EncryptionDecryption");
+require("./EncryptionDecryption/NodeForgeEncryptionDecryption");
 
 // ******Leetcode ************
 // require("./LeetCode/LeetCode1");
