@@ -42,7 +42,8 @@
 
 // *****Encryption decryption methods******
 // require("./EncryptionDecryption/EncryptionDecryption");
-require("./EncryptionDecryption/NodeForgeEncryptionDecryption");
+// require("./EncryptionDecryption/NodeForgeEncryptionDecryption");
+require("./EncryptionDecryption/AsymmetricEncryption");
 
 // ******Leetcode ************
 // require("./LeetCode/LeetCode1");
