@@ -34,7 +34,7 @@ const encryptPayload = (payload) => {
 
   // server's public RSA key (replace this with the actual key)
   const serverPublicKey =
-    '{"privateKey": "-----BEGIN PRIVATE KEY----- ... ------END PRIVATE KEY-----\n", "clientEmail": "client_email", "projectId": "project_id"}';
+    '"-----BEGIN PRIVATE KEY----- ... ------END PRIVATE KEY-----\n"';
 
   // Encrypt the symmetric key with the server's public RSA key
   const encryptedSymmetricKey = encryptAESKey(symmetricKey, serverPublicKey);
