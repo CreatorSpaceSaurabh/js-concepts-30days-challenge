@@ -43,13 +43,15 @@
 // *****Encryption decryption methods******
 // require("./EncryptionDecryption/EncryptionDecryption");
 // require("./EncryptionDecryption/NodeForgeEncryptionDecryption");
-require("./EncryptionDecryption/AsymmetricEncryption");
+// require("./EncryptionDecryption/AsymmetricEncryption");
 
 // ******Leetcode ************
 // require("./LeetCode/LeetCode1");
 // require("./LeetCode/LeetCode2");
 // require("./LeetCode/Leetcode3");
 
+// ****Multi tenant****
+require("./MultiTenant/connection");
 // craeting server for returning response for docker file
 const express = require("express");
 const app = express();
