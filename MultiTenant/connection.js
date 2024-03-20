@@ -13,7 +13,7 @@ const tenant = {
     pass: "pass@123",
   },
 };
-var dbObj = [];
+let tenantDBDetails = {};
 
 mongoose.Promise = global.Promise;
 
@@ -33,7 +33,7 @@ function createConnection(name) {
 }
 
 Object.keys(tenant).forEach(function (key) {
-  dbObj[key] = createConnection(key);
+  tenantDBDetails[key] = createConnection(key);
 });
 
-module.exports = dbObj;
+module.exports = tenantDBDetails;
