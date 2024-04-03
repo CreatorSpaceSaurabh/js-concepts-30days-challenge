@@ -53,7 +53,8 @@ require("./ImportantConcepts/RandomColorGenerator");
 
 // ****Multi tenant****
 require("./MultiTenant/connection");
-// craeting server for returning response for docker file
+
+// creating server for returning response for docker file
 const express = require("express");
 const app = express();
 const helmet = require("helmet");
@@ -65,7 +66,7 @@ app.use("/api/getData", (req, res, next) => {
     data: [
       {
         id: 1,
-        name: "Peter",
+        name: "Peter parker",
         age: 20,
       },
       {
@@ -75,12 +76,12 @@ app.use("/api/getData", (req, res, next) => {
       },
       {
         id: 3,
-        name: "Tony Shark",
+        name: "Tony Stark",
         age: 45,
       },
       {
         id: 4,
-        name: "Chris",
+        name: "Chris hemsworth",
         age: 50,
       },
     ],
