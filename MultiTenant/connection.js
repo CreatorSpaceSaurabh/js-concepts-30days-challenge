@@ -12,6 +12,11 @@ const tenant = {
     user: "Tenant2DB",
     pass: "pass@123",
   },
+  tenant3: {
+    host: "mongodb://127.0.0.1:27017/Tenant3DB",
+    user: "Tenant3DB",
+    pass: "pass@123",
+  },
 };
 let tenantDBDetails = {};
 
