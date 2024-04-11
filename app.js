@@ -39,7 +39,8 @@
 // require("./ImportantConcepts/CurringInJs");
 // require("./ImportantConcepts/CustomJoin");
 // require("./ImportantConcepts/DateConversion");
-require("./ImportantConcepts/RandomColorGenerator");
+// require("./ImportantConcepts/RandomColorGenerator");
+require("./ImportantConcepts/RandomIdGenerator");
 
 // *****Encryption decryption methods******
 // require("./EncryptionDecryption/EncryptionDecryption");
