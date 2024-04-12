@@ -29,7 +29,7 @@ function createConnection(name) {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   };
-  db = mongoose.createConnection(tenant[name].host, options);
+  db = mongoose.createConnection(tenant[name].host); //options - Options removed for new nodejs driver version 4.0.0 for mongoose createConnection
   db.on("error", console.error.bind(console, "connection failed"));
   db.once("open", function () {
     console.log("Database connected successfully!", name);
