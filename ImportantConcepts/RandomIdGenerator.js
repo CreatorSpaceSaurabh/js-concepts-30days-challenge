@@ -1,4 +1,4 @@
-// Utility to create random Id generator
+// *** Utility to create random Id generator ***
 
 const randomIdGenerator = (length) => {
   let result = "";
