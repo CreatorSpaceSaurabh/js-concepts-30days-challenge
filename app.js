@@ -1,8 +1,5 @@
 require("./Index/index");
 
-// ****Multi tenant****
-require("./MultiTenant/connection");
-
 // creating server for returning response for docker file
 const express = require("express");
 const app = express();
