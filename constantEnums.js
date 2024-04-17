@@ -20,5 +20,15 @@ module.exports = {
       name: "Chris hemsworth",
       age: 50,
     },
+    {
+      id: 5,
+      name: "Steven Strange",
+      age: 45,
+    },
+    {
+      id: 6,
+      name: "Wanda Maximoff",
+      age: 35,
+    },
   ],
 };
