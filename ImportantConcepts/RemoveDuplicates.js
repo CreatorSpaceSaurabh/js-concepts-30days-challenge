@@ -26,3 +26,16 @@ const removeDuplicates3 = (arr) => {
   return unique;
 };
 console.log("Remove duplicates 3rd utility calling", removeDuplicates3(array));
+
+// *** method 4 - IndexOf method ****
+
+const removeDuplicates4 = (arr) => {
+  let unique = [];
+  for (i = 0; i < arr.length; i++) {
+    if (unique.indexOf(arr[i]) === -1) {
+      unique.push(arr[i]);
+    }
+  }
+  return unique;
+};
+console.log("Remove duplicates 4th utility calling", removeDuplicates4(array));
