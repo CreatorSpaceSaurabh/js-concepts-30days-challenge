@@ -7,6 +7,10 @@ const helmet = require("helmet");
 const constantEnums = require("./constantEnums");
 // enabling the Helmet middleware
 app.use(helmet());
+// enabling rate limiter (global scope)
+const rateLimitMiddleware = require("./ImportantConcepts/RateLimiter");
+app.use(rateLimitMiddleware);
+
 app.use("/api/getData", (req, res, next) => {
   res.status(200).json({
     sucess: true,
