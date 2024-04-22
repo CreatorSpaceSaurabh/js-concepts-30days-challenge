@@ -2,20 +2,20 @@
 
 let array = ["apple", "mango", "apple", "orange", "mango", "mango"];
 console.log("Original Array =", array);
-// *** method1 - Using filter method ***
+// *** Method1 - Using filter method ***
 const removeDuplicates = (arr) => {
   return arr.filter((item, index) => arr.indexOf(item) === index);
 };
 
 console.log("Remove duplicates 1st utility calling", removeDuplicates(array));
 
-// *** method 2 - Using Spread & Set method ***
+// *** Method 2 - Using Spread & Set method ***
 const removeDuplicates2 = (arr) => {
   return [...new Set(arr)];
 };
 console.log("Remove duplicates 2nd utility calling", removeDuplicates(array));
 
-// *** method 3 - Using forEach ***
+// *** Method 3 - Using forEach ***
 const removeDuplicates3 = (arr) => {
   let unique = [];
   arr.forEach((element) => {
@@ -27,7 +27,7 @@ const removeDuplicates3 = (arr) => {
 };
 console.log("Remove duplicates 3rd utility calling", removeDuplicates3(array));
 
-// *** method 4 - IndexOf method ****
+// *** Method 4 - IndexOf method ****
 
 const removeDuplicates4 = (arr) => {
   let unique = [];
