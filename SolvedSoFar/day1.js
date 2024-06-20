@@ -1,11 +1,11 @@
 // 2nd largest element from array =
-var arr = [1, 2, 6, 18, 11];
+let inputArray = [1, 2, 6, 18, 11];
 
 const findSecondLargestNum = (arr) => {
   let largest = arr[0];
-  let secondLargest;
+  let secondLargest = 0;
   const len = arr.length;
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < len; i++) {
     if (i < len) {
       const ele = arr[i + 1];
       if (largest < ele) {
@@ -17,7 +17,8 @@ const findSecondLargestNum = (arr) => {
       }
     }
   }
-  console.log("SecondLargest ==", secondLargest);
+  // console.log("SecondLargest ==", secondLargest);
   return secondLargest;
 };
-findSecondLargestNum(arr);
+const result = findSecondLargestNum(inputArray);
+console.log("Result ==", result);
