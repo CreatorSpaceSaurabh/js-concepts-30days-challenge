@@ -1,0 +1,33 @@
+**** While preparing for JS interviews (backend or frontend using react) must know about following topics *****
+javascript
+- for in vs for of
+- reduce vs map vs foreach
+- splice vs slice
+- closure 
+- rest parameter and spread operator
+- arrow vs normal function 
+- datatypes in javascript - primitive , non premitve
+- var and let and const
+- implicit type coercion
+- passby value and pass by reference
+- what is currying in js ?
+- promise, geenrator function 
+- object destructuring
+- pass by reference , pass by value
+- async await 
+
+React - 
+- lifecycle of react
+- react router , higher order function , higher order component 
+- Redux Persist, AsyncStorage (Mobile device)
+- useContext
+- userMemo
+- React.memo()
+- useCallback 
+- useRef 
+- useEffect 
+      - no dependency, 
+      - [] calls once, 
+      - [val] - as val update it will run, 
+      - return () => calls when component did Unmount
+- what is pure component

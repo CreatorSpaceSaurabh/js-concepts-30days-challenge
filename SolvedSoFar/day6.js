@@ -1,4 +1,4 @@
-// ***** Problem statement ****
+// ***** Problem statement : To group an output for resultant array****
 let input = [
   { groupId: "groupA", users: ["user1", "user0"] },
   { groupId: "groupB", users: ["user2", "user0"] },
