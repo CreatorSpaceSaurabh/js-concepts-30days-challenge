@@ -4,4 +4,5 @@
 // require("../SolvedSoFar/day3");
 // require("../SolvedSoFar/day4");
 // require("../SolvedSoFar/day5");
-require("../SolvedSoFar/day6");
+// require("../SolvedSoFar/day6");
+require("../SolvedSoFar/day7");
