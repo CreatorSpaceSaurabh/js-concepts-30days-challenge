@@ -21,3 +21,5 @@ function checkWord() {
 
   console.log(result);
 }
+
+checkWord();
