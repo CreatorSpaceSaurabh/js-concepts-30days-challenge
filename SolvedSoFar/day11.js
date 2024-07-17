@@ -19,6 +19,7 @@ const findTopTwoStudents = (arr) => {
           finalResult += `, ${item.name}`;
         }
       });
+      console.log("resultArr==", resultArr);
       return finalResult.substring(1);
     }
   } catch (error) {
