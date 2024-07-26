@@ -24,7 +24,7 @@ const findHighestConsecutiveSequence = (arr) => {
       }
       num = nextNum;
     }
-    console.log("Sequence array ==", differenceArr);
+
     return Math.max(...differenceArr);
   } else {
     return 0;
