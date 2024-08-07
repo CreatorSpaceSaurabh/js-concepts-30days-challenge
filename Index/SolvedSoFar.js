@@ -16,4 +16,5 @@
 // require("../SolvedSoFar/day16");
 // require("../SolvedSoFar/day17");
 // require("../SolvedSoFar/day18");
-require("../SolvedSoFar/day19");
+// require("../SolvedSoFar/day19");
+require("../SolvedSoFar/day20");
