@@ -5,4 +5,4 @@ require("./LeetCode");
 require("./SolvedSoFar");
 
 // ****Multi tenant****
-require("../MultiTenant/connection");
+// require("../MultiTenant/connection");
