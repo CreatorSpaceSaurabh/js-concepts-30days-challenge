@@ -24,7 +24,7 @@ async function connect() {
 // Promise/Async API example
 (async () => {
   const queue = "tasks";
-  const conn = await amqplib.connect("amqp://localhost");
+  const conn = await amqp.connect("amqp://localhost");
 
   const ch1 = await conn.createChannel();
   await ch1.assertQueue(queue);
