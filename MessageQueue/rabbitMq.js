@@ -46,3 +46,5 @@ async function connect() {
     ch2.sendToQueue(queue, Buffer.from("something to do"));
   }, 1000);
 })();
+
+module.exports = { connect };
