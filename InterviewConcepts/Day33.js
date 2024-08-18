@@ -1,14 +1,14 @@
 console.log(a);
 var a = 2;
 
-// Interview concepts
+// Interview concepts - hoisting
 foo();
 var foo = function () {
   var a = 2;
   console.log(a);
 };
 
-// Interview concepts
+// Interview concepts - hoisting
 var value = 10;
 
 let add = function (num) {
@@ -22,8 +22,8 @@ let funcInvoObj = {
 };
 funcInvoObj.addFun();
 
-// Interview concepts
+// Interview concepts - OR operator
 alert(null || 2 || undefined);
 
-// Interview concepts
+// Interview concepts - AND operator
 alert(1 && null && 2);
