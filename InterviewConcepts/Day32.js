@@ -16,7 +16,7 @@ const sum = (...nums) => {
 console.log("Approach1 Dataset 1 - ", sum(2, 3));
 console.log("Approach1 Dataset 2 - ", sum(2, 3, 4));
 console.log("Approach1 Dataset 3 - ", sum(1, 2, 3, 4));
-console.log("Approach1 Dataset 4 - ", sum(10, 2, 30, 4));
+// console.log("Approach1 Dataset 4 - ", sum(10, 2, 30, 4));
 console.log("Approach1 Dataset 5 - ", sum(1, 20, -3, 4, 5, -2));
 
 // Solution 2 - Using spread arguments
