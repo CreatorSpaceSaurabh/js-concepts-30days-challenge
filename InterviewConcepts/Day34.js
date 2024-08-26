@@ -36,7 +36,7 @@ arr[100] = 30;
 
 let resultArr = [...new Set(arr)];
 
-console.log("Unique arr =", resultArr);
+// console.log("Unique arr =", resultArr);
 
 //  MongoDB schema relationships - User - Order collection
 
